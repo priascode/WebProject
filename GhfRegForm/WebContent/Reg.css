@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+
+.mainform{
+   
+ 
+    font-style: bold;
+    border:2px outset  rgba(0,0,0,0.5);
+    margin:75px 100px;
+    background-color: rgba(0,0,0,0.8);
+    padding:60px;
+    border-radius: 20px;
+    
+}
+h2{
+    text-align: center;
+    color: beige;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 0px;
+}
+h1{
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+
+}
+label{
+    margin:20px 10px;
+}
+input, select{
+    margin: 20px 10px;
+    padding:5px 10px;
+    border-radius: 5px;
+    background: none;
+    border-bottom: 2px solid white;
+    
+}
+
+.Form1{
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    border-radius: 20px;
+    margin:30px;
+
+
+}
+.form2{
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    border-radius: 20px;
+    margin:30px;
+
+}
+.form3{
+    background-color: rgba(255,255,255,0.5);
+    padding: 25px;
+    border-radius: 20px;
+    margin:30px;
+
+}
+body{
+    background-image: url("bgg.jpg");
+    background-size: contain;
+  
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Submit-btn{
+    display: block;
+    margin-left:auto;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 231, 20);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Reset-btn{
+    display: block;
+    margin-right:auto;
+    border:3px outset red;
+    outline: none;
+    background-color: rgb(224, 26, 26);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input:hover{
+    background-color: aliceblue;
+}

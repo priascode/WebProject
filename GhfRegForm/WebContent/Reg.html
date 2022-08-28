@@ -2,19 +2,132 @@
 <html>
 <head>
 <title>test</title>
+<link href="Reg.css" rel="Stylesheet">
 </head>
 <body>
-<h1>Hello world</h1>
-<form action="register" method="post">
-	Enter yourname
-	<input type="text" name="Name" > <br>
-	Enter mail id
-	<input type="email" name="Email" > <br>
-	Enter phone number:
-	<input type="number" name="Phone"><br>
-	Enter your course:
-	<input type="text" name="Course"><br>
-	<input type="submit" value="register">
+
+<form action="register" method="post" class="mainform">
+	<h1>REGISTRATION FORM</h1>
+<div class="Form1">
+	<label for="nme">Enter your name:</label>
+	<input id="nme" type="text" name="Name" > 
+	<label for="email" >Enter mail id:</label>
+	<input type="email" name="Email" id="email"> <br>
+	<label for="ph">Enter phone number:</label>
+	<input type="tel" id="ph" name="Phone">
+	<label for="wno">Whatsapp Number:</label>
+	<input type="tel" id="no" name="Whatsapp"><br>
+	<label for="dob">Date of Birth:</label>
+	<input type="date"id="dob" name="Dob">
+	 <label for="dt">District:</label>
+	<select id="dt"name="dist">
+		<option value="none" selected disabled >Select</option>
+		<option value="Ariyalur">Ariyalur</option>
+		<option value="Chengalpet">Chengalpet</option>
+		<option value="Chennai">Chennai</option>
+		<option value="Coimbatore">Coimbatore</option>
+		<option value="Cuddalore">Cuddalore</option>
+		<option value="Dharmapuri">Dharmapuri</option>
+		<option value="Dindigul">Dindigul</option>
+		<option value="Erode">Erode</option>
+		<option value="Kallakurichi">Kallakurichi</option>
+		<option value="Kancheepuram">Kancheepuram</option>
+		<option value="Karur">Karur</option>
+		<option value="Krishnagiri">Krishnagiri</option>
+		<option value="Madurai">Madurai</option>
+		<option value="Mayiladuthurai">Mayiladuthurai</option>
+		<option value="Nagapattinam">Nagapattinam</option>
+		<option value="Kanyakumari">Kanyakumari</option>
+		<option value="Namakkal">Namakkal</option>
+		<option value="Perambalur">Perambalur</option> 
+		<option value="Ramanathapuram">Ramanathapuram</option>
+		<option value="Ranipet">Ranipet</option>
+		<option value="Salem">Salem</option>
+		<option value="Sivagangai">Sivagangai</option>
+		<option value="Tenkasi">Tenkasi</option>
+		<option value="Thanjavur">Thanjavur</option>
+		<option value="Theni">Theni</option>
+		<option value="Thiruvallur">Thiruvallur</option>
+		<option value="Thiruvarur">Thiruvarur</option>
+		<option value="Tuticorin">Tuticorin</option>
+		<option value="Tiruchirappalli">Tiruchirappalli</option>
+		<option value="Thirunelveli">Thirunelveli</option>
+		<option value="Tirupathur">Tirupathur</option>
+		<option value="Tiruppur">Tiruppur</option>
+		<option value="Tiruvannamalai">Tiruvannamalai</option>
+		<option value=" Nilgiris"> Nilgiris</option>
+		<option value="Vellore">Vellore</option>
+		<option value="Viluppuram">Viluppuram</option>
+		<option value="Virudhunagar">Virudhunagar</option>
+	</select><br>
+	<label for="add">Address:</label>
+	<input type="text"id="add" name="addr" style="padding:5px 150px"><br>
+	<label for="ano">Aadhar Number:</label> 
+	<input type="text" id="ano" name="Adno"><br>
+	<label>Gender:</label>
+	<input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female" >Female<br>
+</div>
+
+	<div class="form2">
+	<h2>Personal Details</h2>
+	Father's name:
+	<input type="text" name="Fname">
+	Father's Occupation:
+	<input type="text" name="Focc"><br>
+	Mother's name:
+	<input type="text" name="Mname">
+	Mother's Occupation:
+	<input type="text" name="Mocc"><br>
+	Annual Income:
+	<input type="text" name="AnnIncome">
+	Parents PhoneNumber:
+	<input type="tel" name="PPhno"><br>
+	Are you First Gratuate/Non-First Graduate ?<br>
+	<input type="radio" name="Fgs" value="Yes">Yes<br>
+	<input type="radio" name="Fgs" value="No">No<br>
+
+	Sibling details:
+	<input type="text" name="Sibdet" placeholder="name - qualification"><br>
+</div>
+
+<div class="form3">
+	<h2>Education Details</h2>
+	SSlc or 10th Mark: 
+	<input type="number" name="Tenth"><br>
+	<!--  10th Percentage:
+	<input type="text" name="Tenper"><br>-->
+	Hsc or 12th Mark: 
+	<input type="number" name="Hscm"><br>
+	<!--  12th Percentage:
+<input type="text" name="Hscper"><br>-->
+	Course:
+	<input type="text" name="course" placeholder="eg: BE, Bsc..."><br>
+	Specification:
+	<input type="text" name="specify" placeholder="eg: Maths, CSE.."><br>
+	Current year:
+	<select name="year">
+		<option value="none" selected disabled>-Select-</option>
+		<option>I year</option>
+		<option>II year</option>
+		<option>III year</option>
+		<option>IV year</option>
+		<option>V year</option>
+	</select><br>
+	College or University Name:
+	<input type="text" name="clg" style="padding:5px 150px"><br>
+	College Address:
+	<input type="text" name="clgaddr"style="padding:5px 150px" ><br>
+	Previous Semester Percentage:
+	<input type="text" name="semper"><br>
+	Special  Talents:
+	<input type="text" name="spltal" ><br>
+	Aim in your life:
+	<input type="text" name="aim"><br>
+<input type="reset"  value="Reset" class="Reset-btn">
+<input type="submit" value="Register" class="Submit-btn"> 
+ </div>
 </form>
+
 </body>
 </html>
